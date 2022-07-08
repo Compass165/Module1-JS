@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice1</title>
+</head>
+
+<body>
+pbài tập 1
+<div id="messageDiv"></div>
+<button type="button" onclick="showMessage(); ">Click me! </button>
+<script>
+    function showMessage() {
+        document.getElementById("messageDiv").innerHTML='Xin chào'
+    }
+</script>
+<br><br><br>
+<!--bài tập 2-->
+<div>
+<button type="button" onclick="click()">Click me! </button>
+<script>
+    function click()
+    {
+        alert("Xin chào!");
+    }
+</script>
+</div>
+<br><br><br>
+<!--bài tập 3-->
+<button type="button" onclick="showMessage()" >Click me!</button>
+<script>
+    function showMessage(){
+        document.write('xin chào!')
+    }
+</script>
+<br><br><br>
+<!--Bài tập 4-->
+<button type="button" onclick="showMessage()" >Click me!</button>
+<script>
+    function showMessage(){
+        console.log('Xin chào');
+    }
+</script>
+</body>
+</html>
